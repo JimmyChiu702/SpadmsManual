@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   
+    <link rel="Shortcut Icon" type="image/x-icon" href="./images/icon.png" />
+
+    <link rel="stylesheet" href="./style/manual.css">
+
+    <title>高中生競賽手冊</title>
+</head>
+<body style='font-family: "Microsoft JhengHei", Arial;'>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <span class="navbar-brand ml-5" style="font-size: 1.5rem;">NTHU</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#tab1" data-toggle="tab" style="font-size: 1.5rem;">目錄</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tab2" data-toggle="tab" style="font-size: 1.5rem;">對照表</a>
+                </li>
+            </ul>
+            <ur class="nav navbar-nav nav-right mr-5">
+                <li><img src='./images/user.png' id="logoutIcon"></img>&nbsp&nbsp<font style="color: white; font-size: 1.3rem;"><%= username %></font></li>
+                <li>&nbsp&nbsp<a href="/signout"><img src='./images/logout.png' id="logoutIcon"></img><font style="color: white;">&nbsp登出</font></a></li>
+            </ur>
+        </div>
+    </nav>
+
+    
+        <div class='mx-auto col-md-6' style="margin-top: 10vh; width: 900px; max-width: 100%;">
+            <div class="ml-4">
+                <img src="./images/nthu_logo.png" />
+                <h1 class='mt-4'>高中生競賽<br>語言檢定意義性查詢平台</h1>
+            </div>
+            <div class="tab-content">
+                <div id="tab1" class="tab-pane fade in active show">
+                    <div class="modal fade" id="pdf" role="dialog" style="height: 100%">
+                        <div class="modal-content modal-dialog" style="width: 1000px; max-width: 100%; height: 90%;">
+                            <div class="modal-header" style="padding: 0; height: 3rem;">
+                                <span class="modal-title mt-2 ml-4" style="width: 10rem; font-size: 1rem;">
+                                    <text id="modal-header"></text>
+                                    <text id="ref" style="font-size: 2.3rem; font-weight: bolder;"></text>
+                                </span>
+                                <span id="ref-text" style="font-size: 0.7rem;">
+                                    <text class="red">官方-</text><text id="official-text"></text><br/>
+                                    <text class="red">非官方-</text><text id="non-official-text"></text>
+                                </span>
+                                <button type="button" class="close" data-dismiss="modal" style="margin-top: -4px; margin-right: 2px;">&times;</button>
+                            </div>
+                            <div class="modal-body" style="height: 95%;">
+                                <div id="mask" oncontextmenu="return false"></div>
+                                <embed id="doc" width="100%" height="100%" src="" disabled></embed>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='mx-auto col-md-6' style="margin-top: 10vh; width: 900px; max-width: 100%;">
+                        <div class="input-group mt-5" id="input">
+                            <input type="text" class="form-control" placeholder="Search..." id="searchBox">
+                            <button class="btn btn-primary ml-2" onclick="handleBtnClick()" id="searchBtn">
+                                <div class="loader"></div>
+                                <img src='./images/search.png' id="searchIcon"></img>
+                            </button>
+                        </div>
+                        <div id="content" data-children=".chapter" class="mt-5  mb-5"></div>
+                    </div>
+                </div>
+                <div id="tab2" class="tab-pane fade">
+                    <div id="charts">
+                        <form>
+                            <div id="chart1">
+                                <label for="chart1" class="chartLabel">成績對照表</label>
+                                <div class="mt-3">
+                                    <div class="form-group mt-4">
+                                        <label class="form-control-label dropdownLabel" for="ch1_dr1">競賽名稱</label>
+                                        <div class="dropdown" id="ch1_dr1">
+                                            <button class="btn btn-outline-primary dropdown-toggle col-10 text-left" type="button" id="dropdown1-1_btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Choose...
+                                            </button>
+                                            <div id="dropdown1-1" class="dropdown-menu" aria-labelledby="dropdown1-1_btn"></div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mt-4">
+                                        <label class="form-control-label dropdownLabel" for="ch1_dr2">成績</label>
+                                        <div class="dropdown" id="ch1_dr2">
+                                            <button class="btn btn-outline-primary dropdown-toggle col-10 text-left" type="button" id="dropdown1-2_btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" disabled>
+                                                <text class="pr-auto">Choose...</text>
+                                            </button>
+                                            <div id="dropdown1-2" class="dropdown-menu" aria-labelledby="dropdown1-2_btn"></div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-4">
+                                        <label for="descriptionText1">審核標準</label>
+                                        <p class="description" id="descriptionText1"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="my-5"/>
+                            <div id="chart2">
+                                <label for="chart2" class="chartLabel">選拔流程對照表</label>
+                                <div class="mt-3">
+                                    <div class="form-group mt-4">
+                                        <label class="form-control-label dropdownLabel" for="ch1_dr2">競賽名稱</label>
+                                        <div class="dropdown" id="ch2_dr1">
+                                            <button class="btn btn-outline-primary dropdown-toggle col-10 text-left" type="button" id="dropdown2-1_btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Choose...
+                                            </button>
+                                            <div id="dropdown2-1" class="dropdown-menu" aria-labelledby="dropdown2-1_btn"></div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mt-4">
+                                        <label class="form-control-label dropdownLabel" for="ch2_dr2">選拔流程</label>
+                                        <div class="dropdown" id="ch2_dr2">
+                                            <button class="btn btn-outline-primary dropdown-toggle col-10 text-left" type="button" id="dropdown2-2_btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"disabled>
+                                                Choose...
+                                            </button>
+                                            <div id="dropdown2-2" class="dropdown-menu" aria-labelledby="dropdown2-2_btn"></div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-4">
+                                        <label for="descriptionText2">名額/人數</label>
+                                        <p class="description" id="descriptionText2"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-center mt-5" style="margin-bottom: 5rem;">
+            <span class="mx-auto col-6">
+                Copyright &#9400; 2017 國立清華大學教務處招生策略中心。版權所有
+            </span>
+        </footer>
+    </div>
+    <script src="./script/manual.js"></script>    
+</body>
+</html>

@@ -1,0 +1,112 @@
+#content {
+    border-width: 2px;
+    border-style: solid;
+    padding: 30px;
+    border-color: lightgray;
+    border-radius: 15px;
+}
+.subsections, a {
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 0.5rem 0 0.5rem 1rem;
+    font-weight: 500;
+}
+.ch {
+    font-size: 1.5rem;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+a:hover, a:focus{
+    text-decoration: none;
+    font-weight: bold;
+}
+.subsections:hover {
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+    border-radius: 9999rem;
+}
+#input {
+    height: 3rem;
+}
+#searchBox {
+    font-size: 1.5rem;
+}
+#searchIcon {
+    width: 2rem;
+    height: 2rem;
+    margin-top: -3.5rem;
+}
+#logoutIcon {
+    width: 2rem;
+    height: 2rem;
+}
+
+text {
+    line-height: 1rem;
+    margin-bottom: 0;
+    padding-right: -10rem;
+}
+.loader {
+    border: 0.3rem solid rgba(0, 0, 0, 0); /* Light grey */
+    border-top: 0.3rem solid white; /* Blue */
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.chartLabel {
+    font-size: 3rem;
+}
+
+Label {
+    font-size: 1.5rem;
+}
+
+#charts {
+    margin-top: 7rem;
+    background-color: rgb(245, 245, 245);
+    padding: 3rem 3rem;
+    border-radius: 3rem;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+.btn {
+    font-size: 1.2rem;
+}
+
+.dropdown-toggle::after {
+    float: right;
+    margin-top: 0.5rem;
+}
+
+.description {
+    font-size: 2rem;
+    font-weight: 600;
+    height: 6rem;
+}
+
+body {
+
+}
+
+#mask {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+}
+
+.red {
+    color: red;
+}

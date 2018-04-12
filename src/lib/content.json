@@ -1,0 +1,490 @@
+[
+    {
+        "text": "高中生競賽/語言檢定一覽表",
+        "subsection": [
+            {
+                "text": "高中生競賽/語言檢定一覽表",
+                "filename": "ch0.pdf",
+                "level": ""
+            }
+        ]
+    },{
+        "text": "壹、學科類競賽",
+        "section": [
+            {
+                "text": "一、數學",
+                "subsection": [
+                    {
+                        "text": "（一）國際數學奧林匹亞競賽(IMO)與亞太數學奧林匹亞競賽(APMO)",
+                        "filename": "ch1-1-1.pdf",
+                        "level": "A"
+                    },{
+                        "text": "（二）丘成桐中學數學獎",
+                        "filename": "ch1-1-2.pdf",
+                        "level": "A"
+                    },{
+                        "text": "（三）美國中學數學科考試(AMC10/12)",
+                        "filename": "ch1-1-3.pdf",
+                        "level": "C"
+                    },{
+                        "text": "（四）環球城市數學競賽",
+                        "filename": "ch1-1-4.pdf",
+                        "level": "C"
+                    },{
+                        "text": "（五）希望杯國際數學競賽",
+                        "filename": "ch1-1-5.pdf",
+                        "level": "C"
+                    },{
+                        "text": "（六）臺灣區高中數學競賽(TRML)",
+                        "filename": "ch1-1-6.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（七）美國國際數學邀請賽(AIME)",
+                        "filename": "ch1-1-7.pdf",
+                        "level": "C"
+                    },{
+                        "text": "（八）全美高中數學競賽(ARML) 臺灣選拔賽",
+                        "filename": "ch1-1-8.pdf",
+                        "level": "B"
+                    },{
+                    	"text": "（九）TMT11個人數學競賽",
+                    	"filename": "ch1-1-9.pdf",
+                    	"level": "A"
+                    },{
+                    	"text": "（十）ASDAN MATH TOURNAMENT北京國際（美式）數學競賽",
+                    	"filename": "ch1-1-10.pdf",
+                    	"level": "C"
+                    }
+                ]
+            },{
+                "text": "二、物理",
+                "subsection": [
+                    {
+                        "text": "（一）國際物理奧林匹亞競賽( IPhO )與亞洲物理奧林匹亞(APHO)競賽",
+                        "filename": "ch1-2-1.pdf",
+                        "level": "A"
+                    },{
+                        "text": "（二）全國中學生力學競賽",
+                        "filename": "ch1-2-2.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（三）徐有庠盃臺灣青年學生物理辯論競賽",
+                        "filename": "ch1-2-3.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（四）清華大學科學人才培育計畫物理組",
+                        "filename": "ch1-2-4.pdf",
+                        "level": ""
+                    },{
+                        "text": "（五）台灣大學 ｢高中物理科學人才培育計畫｣",
+                        "filename": "ch1-2-5.pdf",
+                        "level": ""
+                    },{
+                        "text": "（六）成功大學高中科學資優學生培育計畫",
+                        "filename": "ch1-2-6.pdf",
+                        "level": ""
+                    }
+                ]
+            },{
+                "text": "三、化學",
+                "subsection": [
+                    {
+                        "text": "（一）國際化學奧林匹亞競賽(IChO)",
+                        "filename": "ch1-3-1.pdf",
+                        "level": "A"
+                    },{
+                        "text": "（二）清華盃全國高級中學化學科能力競賽",
+                        "filename": "ch1-3-2.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（三）鍾靈化學創意競賽",
+                        "filename": "ch1-3-3.pdf",
+                        "level": "B"
+                    }
+                ]
+            },{
+                "text": "四、生物",
+                "subsection": [
+                    {
+                        "text": "（一）國際生物奧林匹亞競賽(IBO)",
+                        "filename": "ch1-4-1.pdf",
+                        "level": "A"
+                    }
+                ]
+            },{
+                "text": "五、地球科學",
+                "subsection": [
+                    {
+                        "text": "（一）國際地球科學奧林匹亞競賽(IESO)",
+                        "filename": "ch1-5-1.pdf",
+                        "level": "A"
+                    }
+                ]
+            },{
+                "text": "六、資訊",
+                "subsection": [
+                    {
+                        "text": "（一）國際資訊奧林匹亞(IOI)",
+                        "filename": "ch1-6-1.pdf",
+                        "level": "A"
+                    },{
+                        "text": "（二）網際網路程式設計大賽",
+                        "filename": "ch1-6-2.pdf",
+                        "level": "A"
+                    },{
+                        "text": "（三）Microsoft Office Word 2010 Specialist Expert",
+                        "filename": "ch1-6-3.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（四）APCS大學程式設計先修檢測",
+                        "filename": "ch1-6-4.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（五）全國高職學生團隊技術創造力培訓與競賽",
+                        "filename": "ch1-6-5.pdf",
+                        "level": "C"
+                    },{
+                        "text": "（六）全國高中生活科技學藝競賽",
+                        "filename": "ch1-6-6.pdf",
+                        "level": "C"
+                    },{
+                        "text": "（七）港台中學生機械人大賽",
+                        "filename": "ch1-6-7.pdf",
+                        "level": "C"
+                    },{
+                        "text": "（八）全國高中職生智慧生活創意設計比賽",
+                        "filename": "ch1-6-8.pdf",
+                        "level": "C"
+                    },{
+                        "text": "（九）台中市資訊簡報比賽",
+                        "filename": "ch1-6-9.pdf",
+                        "level": "C"
+                    },{
+                        "text": "（十）臺北市高級中等學校電腦軟體設計競賽",
+                        "filename": "ch1-6-10.pdf",
+                        "level": "C"
+                    },{
+                        "text": "（十一）ITSA線上程式競賽團體賽",
+                        "filename": "ch1-6-11.pdf",
+                        "level": ""
+                    }
+                ]
+            },{
+                "text": "七、史地",
+                "subsection": [
+                    {
+                        "text": "（一）國際地理奧林匹亞(iGeO)",
+                        "filename": "ch1-7-1.pdf",
+                        "level": "A"
+                    },{
+                        "text": "（二）全國高中臺灣人文獎",
+                        "filename": "ch1-7-2.pdf",
+                        "level": "A"
+                    }
+                ]
+            },{
+                "text": "八、語文及文學",
+                "subsection": [
+                    {
+                        "text": "（一）中華民國全國語文競賽",
+                        "filename": "ch1-8-1.pdf",
+                        "level": "A"
+                    },{
+                        "text": "（二）全球華文學生文學獎",
+                        "filename": "ch1-8-2.pdf",
+                        "level": "A"
+                    },{
+                        "text": "（三）教育部文藝創作獎",
+                        "filename": "ch1-8-3.pdf",
+                        "level": "A"
+                    },{
+                        "text": "（四）聯合盃全國作文大賽",
+                        "filename": "ch1-8-4`.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（五）全國高級中等學校古文背誦比賽",
+                        "filename": "ch1-8-5.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（六）全國高級中等學校古詩詞曲文吟唱比賽",
+                        "filename": "ch1-8-6.pdf",
+                        "level": "B"
+                    }
+                ]
+            },{
+                "text": "九、外語",
+                "subsection": [
+                    {
+                        "text": "（一）全國高中英文單字比賽（教育部主辦）",
+                        "filename": "ch1-9-1.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（二）全國英文單字比賽（高中組）（國立臺灣師範大學主辦）",
+                        "filename": "ch1-9-2.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（三）全國國中暨高中英語短劇比賽（高中組）",
+                        "filename": "ch1-9-3.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（四）國立暨臺灣省公私立高級中等學校學生英文作文及演講比賽",
+                        "filename": "ch1-9-4.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（五）外交小尖兵－英語種籽隊選拔",
+                        "filename": "ch1-9-5.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（六）敦煌全國高中盃英語閱讀比賽",
+                        "filename": "ch1-9-6`.pdf",
+                        "level": "C"
+                    },{
+                        "text": "（七）書林全國高中職英文讀書心得比賽",
+                        "filename": "ch1-9-7.pdf",
+                        "level": "B"
+                    }
+                ]
+            },{
+                "text": "十、綜合",
+                "subsection": [
+                    {
+                        "text": "（一）高級中等學校數理及資訊學科能力競賽",
+                        "filename": "ch1-10-1.pdf",
+                        "level": "A"
+                    },{
+                        "text": "（二）全國高級中等學校小論文寫作比賽",
+                        "filename": "ch1-10-2.pdf",
+                        "level": "C"
+                    },{
+                        "text": "（三）全國高級中等學校讀書心得寫作比賽",
+                        "filename": "ch1-10-3.pdf",
+                        "level": "C"
+                    },{
+                        "text": "（四）全國高中職小論文獎",
+                        "filename": "ch1-10-4.pdf",
+                        "level": "B"
+                    },{
+                        "text": "（五）全國大專校院英文簡報暨高中生英文演講競賽",
+                        "filename": "ch1-10-5.pdf",
+                        "level": "B"
+                    }
+                ]
+            }
+        ]
+    },{
+        "text": "貳、科展",
+        "subsection": [
+            {
+                "text": "（一）全國中小學科學展覽會",
+                "filename": "ch2-1.pdf",
+                "level": "A"
+            },{
+                "text": "（二）臺灣國際科學展覽會",
+                "filename": "ch2-2.pdf",
+                "level": "A"
+            },{
+                "text": "（三）美國國際科技展覽會",
+                "filename": "ch2-3.pdf",
+                "level": "A"
+            },{
+                "text": "（四）旺宏科學獎",
+                "filename": "ch2-4.pdf",
+                "level": "A"
+            },{
+                "text": "（五）青少年科學人才培育計畫",
+                "filename": "ch2-5.pdf",
+                "level": ""
+            }
+        ]
+    },{
+        "text": "參、語言能力檢定",
+        "section": [
+            {
+                "text": "一、英文",
+                "subsection": [
+                    {
+                        "text": "（一）托福(TOEFL)",
+                        "filename": "ch3-1-1.pdf",
+                        "level": ""
+                    },{
+                        "text": "（二）多益(TOEIC)",
+                        "filename": "ch3-1-2.pdf",
+                        "level": ""
+                    },{
+                        "text": "（三）全民英檢(GEPT)",
+                        "filename": "ch3-1-3.pdf",
+                        "level": ""
+                    },{
+                        "text": "（四）雅思(IELTS)",
+                        "filename": "ch3-1-4.pdf",
+                        "level": ""
+                    },{
+                        "text": "（五）各項英語能力檢定與CEFR等級對照表",
+                        "filename": "ch3-1-5.pdf",
+                        "level": ""
+                    },{
+                        "text": "（六）大學入學考試中心高中英語聽力測驗",
+                        "filename": "ch3-1-6.pdf",
+                        "level": ""
+                    }
+                ]
+            },{
+                "text": "二、日語",
+                "subsection": [
+                    {
+                        "text": "（一）日本語能力測驗",
+                        "filename": "ch3-2-1.pdf",
+                        "level": ""
+                    }
+                ]
+            },{
+                "text": "三、法文",
+                "subsection": [
+                    {
+                        "text": "（一）DELF法文測驗",
+                        "filename": "ch3-3-1.pdf",
+                        "level": ""
+                    }
+                ]
+            }
+        ]
+    },{
+        "text": "肆、非學科類競賽",
+        "section": [
+            {
+                "text": "一、創意類",
+                "subsection": [
+                    {
+                        "text": "（一）思源科學創意大賽",
+                        "filename": "ch4-1-1.pdf",
+                        "level": ""
+                    },{
+                        "text": "（二）能源科技創意競賽",
+                        "filename": "ch4-1-2.pdf",
+                        "level": ""
+                    },{
+                        "text": "（三）智慧鐵人創意競賽",
+                        "filename": "ch4-1-3.pdf",
+                        "level": ""
+                    },{
+                        "text": "（四）世界青少年發明展(IEYI)臺灣區選拔賽",
+                        "filename": "ch4-1-4.pdf",
+                        "level": ""
+                    },{
+                        "text": "（五）國際奧林匹克機器人大賽(WRO)",
+                        "filename": "ch4-1-5.pdf",
+                        "level": ""
+                    },{
+                        "text": "（六）2015年世界機關王競賽─世界級",
+                        "filename": "ch4-1-6.pdf",
+                        "level": ""
+                    },{
+                        "text": "（七）RCJ青少年機器人世界盃",
+                        "filename": "ch4-1-7.pdf",
+                        "level": ""
+                    },{
+                        "text": "（八）全國高級中學生活科技學藝競賽",
+                        "filename": "ch4-1-8.pdf",
+                        "level": ""
+                    },{
+                        "text": "（九）全國高中職學生智慧生活創意設計比賽",
+                        "filename": "ch4-1-9.pdf",
+                        "level": ""
+                    },{
+                        "text": "（十）青年程式設計競賽─全國自走車競賽",
+                        "filename": "ch4-1-10.pdf",
+                        "level": ""
+                    },{
+                        "text": "（十一）全國高中職商業經營企劃案競賽",
+                        "filename": "ch4-1-11.pdf",
+                        "level": ""
+                    },{
+                        "text": "（十二）全國高中職學生創新創意競賽",
+                        "filename": "ch4-1-12.pdf",
+                        "level": ""
+                    },{
+                        "text": "（十三）企業E化知識競賽",
+                        "filename": "ch4-1-13.pdf",
+                        "level": ""
+                    },{
+                        "text": "（十四）玩具暨兒童用品創意設計競賽",
+                        "filename": "ch4-1-14.pdf",
+                        "level": ""
+                    }
+                ]
+            },{
+                "text": "二、藝能類",
+                "subsection": [
+                    {
+                        "text": "（一）全國學生音樂比賽",
+                        "filename": "ch4-2-1.pdf",
+                        "level": ""
+                    },{
+                        "text": "（二）全國學生美術比賽",
+                        "filename": "ch4-2-2.pdf",
+                        "level": ""
+                    },{
+                        "text": "（三）全國學生舞蹈比賽",
+                        "filename": "ch4-2-3.pdf",
+                        "level": ""
+                    },{
+                        "text": "（四）全國師生鄉土歌謠比賽",
+                        "filename": "ch4-2-4.pdf",
+                        "level": ""
+                    }
+                ]
+            }
+        ]
+    },{
+        "text": "伍、特殊優良行為",
+        "subsection": [
+            {
+                "text": "（一）總統教育獎",
+                "filename": "ch5-1.pdf",
+                "level": ""
+            },{
+                "text": "（二）SOC保德信青少年志工菁英獎",
+                "filename": "ch5-2.pdf",
+                "level": ""
+            }
+        ]
+    },{
+        "text": "陸、志工/國際志工",
+        "subsection": [
+            {
+                "text": "（一）國際青年大使",
+                "filename": "ch6-1.pdf",
+                "level": ""
+            },{
+                "text": "（二）世界大學運動會國際志工",
+                "filename": "ch6-2.pdf",
+                "level": ""
+            },{
+                "text": "（三）北戴河啟行營地教育發展中心志工",
+                "filename": "ch6-3.pdf",
+                "level": ""
+            },{
+                "text": "（四）毛克利國際志工",
+                "filename": "ch6-4.pdf",
+                "level": ""
+            },{
+                "text": "（五）台中南簡國際志工服務",
+                "filename": "ch6-5.pdf",
+                "level": ""
+            },{
+                "text": "（六）VYA願景青年行動協會-斯里蘭卡國際志工",
+                "filename": "ch6-6.pdf",
+                "level": ""
+            }
+        ]
+    },{
+        "text": "附錄一",
+        "subsection": [
+            {
+                "text": "教育部國民及學前教育署103學年度資優鑑定",
+                "filename": "ch7.pdf",
+                "level": ""
+            }
+        ]
+    }
+]

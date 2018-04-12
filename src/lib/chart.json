@@ -1,0 +1,320 @@
+[
+    [
+        {
+            "parent": "亞太數學奧林匹亞競賽APMO",
+            "child": [
+                {
+                    "condition": "金牌",
+                    "description": "金牌與銀牌獎合起來的名額≦3人"
+                },{
+                    "condition": "銀牌",
+                    "description": "金牌與銀牌獎合起來的名額≦3人"
+                },{
+                    "condition": "銅牌",
+                    "description": "金牌、銀牌、銅牌獎合起來的名額≦7人"
+                }
+            ]
+        },{
+            "parent": "國際數學奧林匹亞競賽IMO",
+            "child": [
+                {
+                    "condition": "參與證書",
+                    "description": "每位代表可獲頒參與證書"
+                },{
+                    "condition": "優勝獎",
+                    "description": "優勝獎可分金牌、銀牌、銅牌三個獎級。"
+                },{
+                    "condition": "特殊獎",
+                    "description": "解題品質特殊優異者，可獲頒特殊獎"
+                },{
+                    "condition": "榮譽獎",
+                    "description": "至少有一道題得滿分而未達金、銀、銅三種獎牌成績者，可獲頒榮譽獎"
+                }
+            ]
+        },{
+            "parent": "國際物理奧林匹亞競賽(IPhO)與亞洲物理奧林匹亞競賽(APhO)",
+            "child": [
+                {
+                    "condition": "金牌",
+                    "description": "主辦者所定訂出的金牌最低成績應能確保有6%的參賽者可獲頒金牌"
+                },{
+                    "condition": "銀牌",
+                    "description": "主辦者所訂出的銀牌最低成績應能確保有18%的參賽者可獲頒金牌或銀牌"
+                },{
+                    "condition": "銅牌",
+                    "description": "主辦者所訂出的銅牌最低成績應能確保有36%的參賽者可獲頒金牌、銀牌或銅牌"
+                },{
+                    "condition": "榮譽獎",
+                    "description": "主辦者所訂出的榮譽獎最低成績應能確保有60%的參賽者可獲頒金牌、銀牌、銅牌或榮譽獎"
+                }
+            ]
+        },{
+            "parent": "國際化學奧林匹亞競賽(IChO)",
+            "child": [
+                {
+                    "condition": "金牌",
+                    "description": "排名前10±2%的學生"
+                },{
+                    "condition": "銀牌",
+                    "description": "接下來20±2%的學生"
+                },{
+                    "condition": "銅牌",
+                    "description": "再接下來30±2%的學生"
+                },{
+                    "condition": "榮譽獎",
+                    "description": "頒發給沒有或得獎牌中成績最好的10位參賽者"
+                },{
+                    "condition": "特別獎",
+                    "description": "頒發給整體得分最高的學生；另兩個特別獎分別頒發給在理論和實作考試中最高分的學生"
+                }
+            ]
+        },{
+            "parent": "國際生物奧林匹亞競賽(IBO)",
+            "child": [
+                {
+                    "condition": "金牌",
+                    "description": "前10%學生"
+                },{
+                    "condition": "銀牌",
+                    "description": "接下來20%的學生"
+                },{
+                    "condition": "銅牌",
+                    "description": "再接下來30%的學生"
+                }
+            ]
+        },{
+            "parent": "國際地球科學奧林匹亞競賽(IESO)",
+            "child": [
+                {
+                    "condition": "金牌",
+                    "description": "全部參賽者中前10%"
+                },{
+                    "condition": "銀牌",
+                    "description": "金牌之後20%"
+                },{
+                    "condition": "銅牌",
+                    "description": "銀牌之後30%"
+                },{
+                    "condition": "榮譽獎",
+                    "description": "未能取得獎牌但在某一部分測驗獲得高分的參賽者"
+                },{
+                    "condition": "特別獎",
+                    "description": "總分最高的參賽者"
+                },{
+                    "condition": "地圈特別獎、水圈特別獎、天文特別獎",
+                    "description": "地質地物、大氣海洋或天文測驗最高分的參賽者可分別獲得"
+                },{
+                    "condition": "最佳團隊特別獎",
+                    "description": "團隊報告中表現最佳的組別"
+                }
+            ]
+        },{
+            "parent": "國際資訊奧林匹亞(IOI)",
+            "child": [
+                {
+                    "condition": "金牌",
+                    "description": "約有50%的機會能夠得獎，約以1:2:3的比例分別獲得金、銀、銅牌獎"
+                },{
+                    "condition": "銀牌",
+                    "description": "約有50%的機會能夠得獎，約以1:2:3的比例分別獲得金、銀、銅牌獎"
+                },{
+                    "condition": "銅牌",
+                    "description": "約有50%的機會能夠得獎，約以1:2:3的比例分別獲得金、銀、銅牌獎"
+                }
+            ]
+        },{
+            "parent": "國際地理奧林匹亞競賽(iGeO)",
+            "child": [
+                {
+                    "condition": "地理小論文組-論文獎",
+                    "description": "可能獲得一等獎、二等獎、三等獎或佳作獎"
+                },{
+                    "condition": "地理小論文組-海報獎",
+                    "description": "可能獲得海報特優獎、海報優等獎、海報佳作獎，其他隊伍可獲得海報參加獎"
+                },{
+                    "condition": "地理小論文組-人氣獎",
+                    "description": "得票數最高之前5名海報"
+                },{
+                    "condition": "個人組-一等獎",
+                    "description": "決賽中表現優異之前50%選手，可獲一等獎、二等獎、三等獎（或金牌、銀牌、銅牌）"
+                },{
+                    "condition": "個人組-二等獎",
+                    "description": "決賽中表現優異之前50%選手，可獲一等獎、二等獎、三等獎（或金牌、銀牌、銅牌）"
+                },{
+                    "condition": "個人組-三等獎",
+                    "description": "決賽中表現優異之前50%選手，可獲一等獎、二等獎、三等獎（或金牌、銀牌、銅牌）"
+                },{
+                    "condition": "國際地理奧林匹亞競賽-金牌",
+                    "description": "獎項為個人獎，包含金牌、銀牌與銅牌"
+                },{
+                    "condition": "國際地理奧林匹亞競賽-銀牌",
+                    "description": "獎項為個人獎，包含金牌、銀牌與銅牌"
+                },{
+                    "condition": "國際地理奧林匹亞競賽-銅牌",
+                    "description": "獎項為個人獎，包含金牌、銀牌與銅牌"
+                }
+            ]
+        },{
+            "parent": "國際奧林匹克機器人大賽(WRO)",
+            "child": [
+                {
+                    "condition": "選拔賽",
+                    "description": "台灣區選拔賽取前三名與佳作數名"
+                },{
+                    "condition": "國際賽",
+                    "description": "前50%隊伍依序排名"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "parent": "國際數學奧林匹亞競賽IMO",
+            "child": [
+                {
+                    "condition": "IMO第一階段選訓營",
+                    "description": "選出15位APMO成績優異的學生為原則"
+                },{
+                    "condition": "IMO第二階段選訓營",
+                    "description": "選出15-20位學生"
+                },{
+                    "condition": "IMO第三階段選訓營",
+                    "description": "選出準國手8-10名"
+                },{
+                    "condition": "IMO國手代表培訓（5次培訓）",
+                    "description": "選出6名國手，2名候補"
+                }
+            ]
+        },{
+            "parent": "亞太數學奧林匹亞競賽APMO",
+            "child": [
+                {
+                    "condition": "國際數學奧林匹亞競賽",
+                    "description": "選拔6位資賦優異學生"
+                }
+            ]
+        },{
+            "parent": "國際物理奧林匹亞競賽(IPhO)與亞洲物理奧林匹亞競賽(APhO)",
+            "child": [
+                {
+                    "condition": "物理奧林匹亞初選",
+                    "description": "錄取300名"
+                },{
+                    "condition": "物理奧林匹亞複選/全國高中生物理競賽總成績前3-5名，視同複選錄取",
+                    "description": "錄取30名，得列備取1-10名"
+                },{
+                    "condition": "物理奧林匹亞決選研習營",
+                    "description": "選出正取8人，備取2人"
+                },{
+                    "condition": "亞洲物理奧林匹亞競賽",
+                    "description": "由決選正取8人參加亞洲賽"
+                },{
+                    "condition": "國際物理奧林匹亞競賽",
+                    "description": "國際物理奧林匹亞競賽選出5名正取，得視情況備取1-2名"
+                }
+            ]
+        },{
+            "parent": "國際化學奧林匹亞競賽(IChO)",
+            "child": [
+                {
+                    "condition": "全國化學科能力競賽第一、二等獎",
+                    "description": "共10人"
+                },{
+                    "condition": "化學奧林匹亞初選筆試兩小時",
+                    "description": "選出44人"
+                },{
+                    "condition": "冬令研習營，10天",
+                    "description": "54人，單一性別至少18人"
+                },{
+                    "condition": "化學奧林匹亞複選",
+                    "description": "選出12人，單一性別至少4人"
+                },{
+                    "condition": "選拔訓練營3週",
+                    "description": "12人（由冬令研習營人數60%及化學奧林匹亞複選人數40%選出）"
+                },{
+                    "condition": "個別輔導營4週",
+                    "description": "4人"
+                }
+            ]
+        },{
+            "parent": "國際生物奧林匹亞競賽(IBO)",
+            "child": [
+                {
+                    "condition": "國內選拔賽第一階段（初賽）",
+                    "description": "選出約200名以上，初賽考到人數前5%"
+                },{
+                    "condition": "國內選拔賽第二階段（複賽）",
+                    "description": "選出前30名"
+                },{
+                    "condition": "國內選拔賽第三階段（選拔營）",
+                    "description": "選出前8名"
+                },{
+                    "condition": "國內選拔賽第四階段（決選營）",
+                    "description": "正選出4名"
+                }
+            ]
+        },{
+            "parent": "國際地球科學奧林匹亞競賽(IESO)",
+            "child": [
+                {
+                    "condition": "全國初選",
+                    "description": "選出20-36人（單一性別不少於總數10%）"
+                },{
+                    "condition": "全國複選選拔營",
+                    "description": "選出代表選手4人"
+                }
+            ]
+        },{
+            "parent": "國際資訊奧林匹亞(IOI)",
+            "child": [
+                {
+                    "condition": "國內選拔賽第一階段（初選）",
+                    "description": "選出18-20名"
+                },{
+                    "condition": "上年度全國高中資訊能力競賽前10名",
+                    "description": "前10名參與研習營"
+                },{
+                    "condition": "國內選拔第三階段（複選）",
+                    "description": "選出約10-20名"
+                },{
+                    "condition": "國內選拔賽第四階段（決選）",
+                    "description": "選出前4名代表選手"
+                }
+            ]
+        },{
+            "parent": "國際地理奧林匹亞競賽(iGeO)",
+            "child": [
+                {
+                    "condition": "團體組-小論文組複賽",
+                    "description": "以前50%或40支隊伍為原則"
+                },{
+                    "condition": "團體組-小論文組決賽",
+                    "description": "以前6-8支最優秀作品晉級"
+                },{
+                    "condition": "個人組複賽",
+                    "description": "以最優的30-35人為原則"
+                },{
+                    "condition": "培訓課程與培訓營",
+                    "description": "每15隊取1隊晉級"
+                }
+            ]
+        },{
+            "parent": "國際奧林匹克機器人大賽(WRO)",
+            "child": [
+                {
+                    "condition": "各縣市校際盃",
+                    "description": ""
+                },{
+                    "condition": "分區賽",
+                    "description": "每15隊取1隊晉級"
+                },{
+                    "condition": "總決賽",
+                    "description": ""
+                },{
+                    "condition": "國際賽",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+]
